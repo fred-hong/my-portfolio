@@ -7,7 +7,7 @@ function About() {
       <h2 className="page-headings reveal fade-bottom">&lt;/About Me&gt;</h2>
       <div className="inner">
         {/* <div className="inner-left reveal fade-bottom"> */}
-        <div>
+        <div className="inner-left">
           <div>
             <p>
               Hey there! My name is Fred Hong. Currently, I am pursuing a

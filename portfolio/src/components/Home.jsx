@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { init } from "ityped";
 
 function Home() {
+  const textRef = useRef(null);
+
+  useEffect(() => {
+    init(textRef.current, {
+      strings: [
+        "Full-Stack Developer",
+        "Software Engineer",
+        "Database Administrator",
+      ],
+      showCursor: true,
+      typeSpeed: 80,
+      backSpeed: 70,
+      backDelay: 1000,
+    });
+  }, []);
+
   return (
     <section id="home" class="first-section">
       <div class="first-small-header">
@@ -11,7 +28,7 @@ function Home() {
       </div>
       <div class="sub-header">
         <h3 class="big-heading init-fade">
-          I am a<span id="ityped"></span>
+          I am a <span ref={textRef}></span>
         </h3>
       </div>
       <div class="header-p">
@@ -25,7 +42,7 @@ function Home() {
       <div>
         <a
           class="home-buttons init-fade"
-          href="img/Resume22.pdf"
+          href="../assets/img/Resume 2023.pdf"
           target="_blank"
           rel="noreferrer"
         >

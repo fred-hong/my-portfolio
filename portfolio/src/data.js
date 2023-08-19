@@ -1,12 +1,47 @@
 import bci_logo from "./assets/img/bci-logo.PNG";
 import ldrs_logo from "./assets/img/ldrs-logo.png";
 import fh_logo from "./assets/img/logov2.png";
+import portfolio from "./assets/img/img-portfolio.PNG";
+import summize from "./assets/img/summize.png";
+import event_manager from "./assets/img/eventproject.JPG";
+import calc from "./assets/img/calculator.JPG";
 
 export const projects = [
   {
-    title: "First Project",
-    description: "This is my first project",
-    tools: "CSS HTML JS",
+    title: "My Portfolio",
+    desc: "SHOWCASING MY WORK",
+    tools: "JS (React) | CSS (Tailwind)",
+    img: portfolio,
+  },
+  {
+    title: "Footwear Site",
+    desc: "E-COMMERCE FOR FOOTWEAR",
+    tools: "JS (React) | MongoDB | Express | Node.js",
+    img: portfolio,
+  },
+  {
+    title: "OpenAI Article Summarizer",
+    desc: "'SUMMIZE' ARTICLES",
+    tools: "JS (React) | CSS (Tailwind) | Vite",
+    img: summize,
+  },
+  {
+    title: "Event Management System",
+    desc: "MANAGE VARIOUS EVENTS",
+    tools: "Java (Swift) | MySQL",
+    img: event_manager,
+  },
+  {
+    title: "Calculator App",
+    desc: "SOLVE ARITHMETIC EXPRESSIONS",
+    tools: "Python (Tkinter)",
+    img: calc,
+  },
+  {
+    title: "My Portfolio",
+    desc: "SHOWCASING MY WORK",
+    tools: "HTML | CSS | JS",
+    img: portfolio,
   },
 ];
 

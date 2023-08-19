@@ -374,7 +374,7 @@ li {
   margin: 0px 5px;
   position: relative;
   /* counter-increment: item 1; */
-  font-size: 13;
+  font-size: 13px;
 }
 
 .nav-link-style ol li a {
