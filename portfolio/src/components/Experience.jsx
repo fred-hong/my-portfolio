@@ -20,8 +20,8 @@ function Experience() {
   return (
     // <section id = "experience" class="experience reveal fade-bottom">
     <section id="experience">
-      <h2 class="page-headings">&lt;/Experience&gt;</h2>
-      <div class="grid-wrapper">{renderedExperience}</div>
+      <h2 className="page-headings">&lt;/Experience&gt;</h2>
+      <div className="grid-wrapper">{renderedExperience}</div>
     </section>
   );
 }

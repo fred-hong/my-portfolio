@@ -3,15 +3,15 @@ import React from "react";
 function Card({ company, role, date, description, img }) {
   return (
     <div className="container">
-      <div class="banner-img"></div>
-      <div class="company-img-wrapper">
-        <img src={img} alt="company-image" class="company-img" />
+      <div className="banner-img"></div>
+      <div className="company-img-wrapper">
+        <img src={img} alt="company" className="company-img" />
       </div>
-      <p class="company-name">
+      <p className="company-name">
         {role} @ <b>{company}</b>
       </p>
       <h4>{date}</h4>
-      <p class="description">{description}</p>
+      <p className="description">{description}</p>
     </div>
   );
 }

@@ -12,36 +12,42 @@ export const projects = [
     desc: "SHOWCASING MY WORK",
     tools: "JS (React) | CSS (Tailwind)",
     img: portfolio,
+    github_link: "https://github.com/f-hong9/my-portfolio",
   },
   {
     title: "Footwear Site",
     desc: "E-COMMERCE FOR FOOTWEAR",
     tools: "JS (React) | MongoDB | Express | Node.js",
     img: portfolio,
+    github_link: "https://github.com/f-hong9/event-manager",
   },
   {
     title: "OpenAI Article Summarizer",
     desc: "'SUMMIZE' ARTICLES",
     tools: "JS (React) | CSS (Tailwind) | Vite",
     img: summize,
+    github_link: "https://github.com/f-hong9/ai-summarizer",
   },
   {
     title: "Event Management System",
     desc: "MANAGE VARIOUS EVENTS",
     tools: "Java (Swift) | MySQL",
     img: event_manager,
+    github_link: "https://github.com/f-hong9/event-manager",
   },
   {
     title: "Calculator App",
     desc: "SOLVE ARITHMETIC EXPRESSIONS",
     tools: "Python (Tkinter)",
     img: calc,
+    github_link: "https://github.com/f-hong9/event-manager",
   },
   {
     title: "My Portfolio",
     desc: "SHOWCASING MY WORK",
     tools: "HTML | CSS | JS",
     img: portfolio,
+    github_link: "https://github.com/f-hong9/event-manager",
   },
 ];
 

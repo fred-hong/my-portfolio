@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { init } from "ityped";
+import Resume from "../assets/img/Resume.pdf";
 
 function Home() {
   const textRef = useRef(null);
@@ -19,20 +20,20 @@ function Home() {
   }, []);
 
   return (
-    <section id="home" class="first-section">
-      <div class="first-small-header">
-        <h1 class="init-fade">Hi, my name is</h1>
+    <section id="home" className="first-section">
+      <div className="first-small-header">
+        <h1 className="init-fade">Hi, my name is</h1>
       </div>
-      <div class="main-header">
-        <h2 class="big-heading init-fade">Fred Hong.</h2>
+      <div className="main-header">
+        <h2 className="big-heading init-fade">Fred Hong.</h2>
       </div>
-      <div class="sub-header">
-        <h3 class="big-heading init-fade">
+      <div className="sub-header">
+        <h3 className="big-heading init-fade">
           I am a <span ref={textRef}></span>
         </h3>
       </div>
-      <div class="header-p">
-        <p class="init-fade">
+      <div className="header-p">
+        <p className="init-fade">
           A 3rd year <b>Computer Science</b> student specializing in building
           exceptional user experiences through my passion for{" "}
           <b>web development</b>, <b>software engineering</b> and{" "}
@@ -41,8 +42,8 @@ function Home() {
       </div>
       <div>
         <a
-          class="home-buttons init-fade"
-          href="../assets/img/Resume 2023.pdf"
+          className="home-buttons init-fade"
+          href={Resume}
           target="_blank"
           rel="noreferrer"
         >

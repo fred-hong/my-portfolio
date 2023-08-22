@@ -10,6 +10,7 @@ function Projects() {
         desc={project.desc}
         tools={project.tools}
         img={project.img}
+        github_link={project.github_link}
       />
     );
   });
@@ -17,8 +18,8 @@ function Projects() {
   return (
     <section id="projects" className="projects">
       {/* <section id="projects" class="projects reveal fade-bottom"> */}
-      <h2 class="page-headings">&lt;/Projects&gt;</h2>
-      <div class="grid-container">{renderedProjects}</div>
+      <h2 className="page-headings">&lt;/Projects&gt;</h2>
+      <div className="grid-container">{renderedProjects}</div>
     </section>
   );
 }

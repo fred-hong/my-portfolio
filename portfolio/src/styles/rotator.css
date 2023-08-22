@@ -1,0 +1,90 @@
+@keyframes moveLR {
+  from {
+    left: 0;
+  }
+  to {
+    left: 47.3225%;
+  }
+}
+
+@keyframes moveRL {
+  from {
+    right: 0;
+  }
+  to {
+    right: 47.3225%;
+  }
+}
+
+.loading {
+  height: 100px;
+  width: 100%;
+  padding-top: 300px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.lr {
+  text-decoration: none;
+  padding-right: 20px;
+  left: 50%;
+  position: absolute;
+  -webkit-animation: moveLR 5s;
+  animation: moveLR 5s;
+}
+
+.rl {
+  text-decoration: none;
+  padding-left: 20px;
+  right: 50%;
+  position: absolute;
+  -webkit-animation: moveRL 5s;
+  animation: moveRL 5s;
+}
+
+.loading a img {
+  /* -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out; 
+    -o-transition: all 1s ease-in-out; 
+    -ms-transition: all 1s ease-in-out;  */
+  transition: all 1s ease-in-out;
+  border-radius: 60px;
+  transition-duration: 1s;
+  width: 102px;
+  height: 102px;
+}
+
+/* a#rotator img:hover { 
+    box-shadow: 0 3px 15px #000;
+    -webkit-transform: rotate(360deg); 
+    -moz-transform: rotate(360deg); 
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg); 
+    transform: translate()
+} */
+
+.loading svg {
+  width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  /* align-items: center;
+    justify-content: center; */
+  position: absolute;
+}
+
+.octagon {
+  fill: none;
+  stroke: #64ffda;
+  stroke-width: 3;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 550;
+  animation: draw 5s ease-in-out forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

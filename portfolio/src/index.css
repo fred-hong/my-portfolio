@@ -141,6 +141,22 @@ a:nth-child(1) {
   }
 }
 
+/* @keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal-fade-up {
+  opacity: 0;
+  animation: fadeUp 1s ease-in-out forwards;
+} */
+
 /* Body */
 
 body {
@@ -463,6 +479,11 @@ a {
   background-color: #233554;
 }
 
+.aboutme-section .page-headings {
+  padding-left: 250px;
+  padding-right: 0;
+}
+
 .experience .page-headings {
   padding-left: 200px;
 }
@@ -731,7 +752,7 @@ a {
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
   opacity: 0;
-  transition: opacity 1.5s;
+  transition: opacity 0.6s;
 }
 
 .grid-item:hover .grid-item-bio {
@@ -748,7 +769,7 @@ a {
     position: absolute; */
   color: #ccd6f6;
   background-color: transparent;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 2px;
   font-weight: 700;
 }
@@ -756,7 +777,7 @@ a {
 .grid-item-bio-desc {
   color: #8892b0;
   background-color: transparent;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   font-size: 13px;
   font-weight: 400;
 }
@@ -810,3 +831,20 @@ a {
 .credits a {
   padding: 10px;
 }
+
+/* .hidden {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+} */

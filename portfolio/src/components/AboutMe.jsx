@@ -1,10 +1,13 @@
 import React from "react";
 import selfportrait from "../assets/img/selfportrait.jpg";
+import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 function About() {
   return (
     <section id="aboutme" className="aboutme-section">
-      <h2 className="page-headings reveal fade-bottom">&lt;/About Me&gt;</h2>
+      {/* <h2 className="page-headings reveal fade-bottom">&lt;/About Me&gt;</h2> */}
+      <h2 className="page-headings">&lt;/About Me&gt;</h2>
       <div className="inner">
         {/* <div className="inner-left reveal fade-bottom"> */}
         <div className="inner-left">
