@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.9053f465.css",
-    "main.js": "/my-portfolio/static/js/main.1caff687.js",
-    "static/media/selfportrait.jpg": "/my-portfolio/static/media/selfportrait.05a5c06c084d79335c15.jpg",
-    "static/media/summize.png": "/my-portfolio/static/media/summize.9fee056321bb38d578b9.png",
-    "static/media/bci-logo.PNG": "/my-portfolio/static/media/bci-logo.9220398afce75e048791.PNG",
-    "static/media/Resume.pdf": "/my-portfolio/static/media/Resume.9964f64f717a3dffa174.pdf",
-    "static/media/img-portfolio.PNG": "/my-portfolio/static/media/img-portfolio.e221b9b967e99de0ace6.PNG",
-    "static/media/eventproject.JPG": "/my-portfolio/static/media/eventproject.cf37d492e1bbc4eadd9a.JPG",
-    "static/media/calculator.JPG": "/my-portfolio/static/media/calculator.faa8d953509ec71670f3.JPG",
-    "index.html": "/my-portfolio/index.html",
-    "main.9053f465.css.map": "/my-portfolio/static/css/main.9053f465.css.map",
-    "main.1caff687.js.map": "/my-portfolio/static/js/main.1caff687.js.map"
+    "main.css": "./static/css/main.9053f465.css",
+    "main.js": "./static/js/main.c632588a.js",
+    "static/media/selfportrait.jpg": "./static/media/selfportrait.05a5c06c084d79335c15.jpg",
+    "static/media/summize.png": "./static/media/summize.9fee056321bb38d578b9.png",
+    "static/media/bci-logo.PNG": "./static/media/bci-logo.9220398afce75e048791.PNG",
+    "static/media/Resume.pdf": "./static/media/Resume.9964f64f717a3dffa174.pdf",
+    "static/media/img-portfolio.PNG": "./static/media/img-portfolio.e221b9b967e99de0ace6.PNG",
+    "static/media/eventproject.JPG": "./static/media/eventproject.cf37d492e1bbc4eadd9a.JPG",
+    "static/media/calculator.JPG": "./static/media/calculator.faa8d953509ec71670f3.JPG",
+    "index.html": "./index.html",
+    "main.9053f465.css.map": "./static/css/main.9053f465.css.map",
+    "main.c632588a.js.map": "./static/js/main.c632588a.js.map"
   },
   "entrypoints": [
     "static/css/main.9053f465.css",
-    "static/js/main.1caff687.js"
+    "static/js/main.c632588a.js"
   ]
 }
