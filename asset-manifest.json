@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1685a481.css",
-    "main.js": "/my-portfolio/static/js/main.69399471.js",
-    "static/media/selfportrait.jpg": "/my-portfolio/static/media/selfportrait.05a5c06c084d79335c15.jpg",
-    "static/media/summize.png": "/my-portfolio/static/media/summize.9fee056321bb38d578b9.png",
-    "static/media/react-icon.jpg": "/my-portfolio/static/media/react-icon.8a6fc0a24a800d1e0f4a.jpg",
-    "static/media/bci-logo.PNG": "/my-portfolio/static/media/bci-logo.9220398afce75e048791.PNG",
-    "static/media/python-icon.jpg": "/my-portfolio/static/media/python-icon.82efb64f8698a267f8bf.jpg",
-    "static/media/Resume.pdf": "/my-portfolio/static/media/Resume.6baf76780df45540d5d5.pdf",
-    "static/media/img-portfolio.PNG": "/my-portfolio/static/media/img-portfolio.e221b9b967e99de0ace6.PNG",
-    "static/media/eventproject.JPG": "/my-portfolio/static/media/eventproject.cf37d492e1bbc4eadd9a.JPG",
-    "static/media/calculator.JPG": "/my-portfolio/static/media/calculator.faa8d953509ec71670f3.JPG",
-    "static/media/css-icon.jpg": "/my-portfolio/static/media/css-icon.58dfbebae4a02001b50e.jpg",
-    "static/media/js-icon.jpg": "/my-portfolio/static/media/js-icon.53a72c2f1b8894adc207.jpg",
-    "index.html": "/my-portfolio/index.html",
-    "main.1685a481.css.map": "/my-portfolio/static/css/main.1685a481.css.map",
-    "main.69399471.js.map": "/my-portfolio/static/js/main.69399471.js.map"
+    "main.css": "./static/css/main.1685a481.css",
+    "main.js": "./static/js/main.323c6e52.js",
+    "static/media/selfportrait.jpg": "./static/media/selfportrait.05a5c06c084d79335c15.jpg",
+    "static/media/summize.png": "./static/media/summize.9fee056321bb38d578b9.png",
+    "static/media/react-icon.jpg": "./static/media/react-icon.8a6fc0a24a800d1e0f4a.jpg",
+    "static/media/bci-logo.PNG": "./static/media/bci-logo.9220398afce75e048791.PNG",
+    "static/media/python-icon.jpg": "./static/media/python-icon.82efb64f8698a267f8bf.jpg",
+    "static/media/Resume.pdf": "./static/media/Resume.6baf76780df45540d5d5.pdf",
+    "static/media/img-portfolio.PNG": "./static/media/img-portfolio.e221b9b967e99de0ace6.PNG",
+    "static/media/eventproject.JPG": "./static/media/eventproject.cf37d492e1bbc4eadd9a.JPG",
+    "static/media/calculator.JPG": "./static/media/calculator.faa8d953509ec71670f3.JPG",
+    "static/media/css-icon.jpg": "./static/media/css-icon.58dfbebae4a02001b50e.jpg",
+    "static/media/js-icon.jpg": "./static/media/js-icon.53a72c2f1b8894adc207.jpg",
+    "index.html": "./index.html",
+    "main.1685a481.css.map": "./static/css/main.1685a481.css.map",
+    "main.323c6e52.js.map": "./static/js/main.323c6e52.js.map"
   },
   "entrypoints": [
     "static/css/main.1685a481.css",
-    "static/js/main.69399471.js"
+    "static/js/main.323c6e52.js"
   ]
 }
