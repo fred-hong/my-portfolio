@@ -7,8 +7,9 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import f_logo from "../assets/img/F.png";
-import h_logo from "../assets/img/H.png";
+// import f_logo from "../assets/img/F.png";
+// import h_logo from "../assets/img/H.png";
+import Sidebar from "../components/Sidebar";
 
 function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
@@ -17,7 +18,7 @@ function HomePage() {
   useEffect(() => {
     const loadingTimer = setTimeout(() => {
       setIsLoading(false);
-    }, 4800);
+    }, 3000);
 
     return () => clearTimeout(loadingTimer);
   }, []);
@@ -32,16 +33,17 @@ function HomePage() {
               points="50,0 90,25 90,75 50,100 10,75 10,25"
             />
           </svg>
-          <a href="/" className="lr">
+          {/* <a href="/" className="lr">
             <img src={f_logo} alt="f" />
           </a>
           <a href="/" className="rl">
             <img src={h_logo} alt="h" />
-          </a>
+          </a> */}
         </div>
       ) : (
         <>
           <Navbar />
+          <Sidebar />
           <div id="content">
             <main class="main-template fillHeight">
               <Home />

@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "commonjs": "^0.0.1",
     "ityped": "^1.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -46,8 +47,11 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
+    "file-loader": "^6.2.0",
     "gh-pages": "^6.0.0",
     "postcss": "^8.4.28",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }

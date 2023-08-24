@@ -14,6 +14,11 @@
   padding: 0;
 }
 
+/* Vertical Line */
+/* .v1 {
+  border-left: 6px #ccd6f6;
+} */
+
 /* Initial fade when page is refreshed */
 
 .init-fade {
@@ -166,6 +171,7 @@ body {
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
+  scrollbar-color: black #e0e0e0;
   -webkit-font-smoothing: antialiased;
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
@@ -173,6 +179,24 @@ body {
   color: #8892b0;
   line-height: 1.3;
   font-size: 20px;
+}
+
+/* Scrollbar Styling */
+html::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #8892b0;
+  background-color: #8892b0;
 }
 
 .root {
@@ -539,7 +563,7 @@ a {
   font-size: 17px;
 }
 
-.list-skills {
+/* .list-skills {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   gap: 0px 10px;
@@ -565,6 +589,54 @@ a {
   color: #64ffda;
   font-size: 14px;
   line-height: 20px;
+}
+*/ .icon a,
+img {
+  transition: 1s ease;
+}
+
+.icon img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.icon a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.tooltip {
+  text-decoration: none;
+  position: relative;
+}
+
+.tooltip span {
+  display: none;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  color: black;
+  background: white;
+}
+
+.tooltip:hover span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: auto;
+  max-width: 100px;
+  border: 1px solid black;
+  margin-top: 50px;
+  overflow: hidden;
+  padding: 8px;
+}
+.tooltip span h2 {
+  font-size: 15px;
 }
 
 .aboutme-section .inner .inner-right {
@@ -815,17 +887,20 @@ a {
   align-items: center;
   flex-direction: column;
   height: auto;
-  min-height: 70px;
-  padding: 15px;
+  min-height: 20px;
+  padding: 10px;
   text-align: center;
+  background-color: #b0bec5;
 }
 
 .credits {
-  color: #b0bec5;
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  font-size: 12;
+  color: #0a192f;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
   line-height: 1;
-  padding-left: 60px;
+  /* padding-left: 60px; */
 }
 
 .credits a {

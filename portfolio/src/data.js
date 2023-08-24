@@ -56,7 +56,7 @@ export const experience = [
     company: "LDRS Investments",
     role: "Full Stack Developer",
     date: "Jan 2023 - Apr 2023",
-    description: "Test",
+    description: "test",
     img: ldrs_logo,
   },
   {
