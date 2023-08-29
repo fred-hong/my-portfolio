@@ -590,7 +590,7 @@ a {
   font-size: 14px;
   line-height: 20px;
 }
-*/ .icon a,
+.icon a,
 img {
   transition: 1s ease;
 }
