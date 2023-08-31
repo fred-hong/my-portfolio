@@ -18,7 +18,9 @@ function Projects() {
   return (
     <section id="projects" className="projects">
       {/* <section id="projects" class="projects reveal fade-bottom"> */}
-      <h2 className="page-headings">&lt;/Projects&gt;</h2>
+      <div className="w-full mt-2.5 mb-10 h-auto items-center align-middle justify-center">
+        <h2 className="page-headings">&lt;/Projects&gt;</h2>
+      </div>
       <div className="grid-container">{renderedProjects}</div>
     </section>
   );

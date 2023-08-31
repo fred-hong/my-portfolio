@@ -45,7 +45,7 @@ function HomePage() {
           <Navbar />
           <Sidebar />
           <div id="content">
-            <main class="main-template fillHeight">
+            <main className="main-template fillHeight">
               <Home />
               <Fade bottom distance="50px">
                 <About />
@@ -56,7 +56,9 @@ function HomePage() {
               <Fade bottom distance="50px">
                 <Projects />
               </Fade>
-              <Contact />
+              <Fade bottom distance="50px">
+                <Contact />
+              </Fade>
             </main>
             <Footer />
           </div>

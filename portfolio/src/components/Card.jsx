@@ -8,7 +8,9 @@ function Card({ company, role, date, description, img }) {
         <img src={img} alt="company" className="company-img" />
       </div>
       <p className="company-name">
-        {role} @ <b>{company}</b>
+        <b>{role}</b>
+        <br />
+        {company}
       </p>
       <h4>{date}</h4>
       <p className="description">{description}</p>
