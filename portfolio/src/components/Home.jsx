@@ -40,7 +40,7 @@ function Home() {
           <b>database administrating</b>.
         </p>
       </div>
-      <div>
+      <div className="home-button-wrapper">
         <a
           className="home-buttons init-fade"
           href={Resume}

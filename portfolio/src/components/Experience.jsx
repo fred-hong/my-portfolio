@@ -12,6 +12,7 @@ function Experience() {
         role={exp.role}
         date={exp.date}
         description={exp.description}
+        sub_desc={exp.sub_desc}
         img={exp.img}
       />
     );
@@ -19,7 +20,7 @@ function Experience() {
 
   return (
     // <section id = "experience" class="experience reveal fade-bottom">
-    <section id="experience">
+    <section id="experience" className="experience-section">
       <div className="w-full mt-2.5 mb-10 h-auto items-center align-middle justify-center">
         <h2 className="page-headings">&lt;/Experience&gt;</h2>
       </div>

@@ -69,7 +69,8 @@ export const experience = [
     role: "Full Stack Developer",
     date: "Jan 2023 - Apr 2023",
     description:
-      "Launched 'EAOS'; a project designed to provide company executives an automated service for administrative tasks and management capabilities. Tech Stack: React, Django, SQlite.",
+      "Launched 'EAOS'; a project designed to provide company executives an automated service for administrative tasks and management capabilities.",
+    sub_desc: "Tech Stack: React, Django, SQlite.",
     img: ldrs_logo,
   },
   {

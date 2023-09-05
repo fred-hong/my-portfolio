@@ -27,7 +27,7 @@ function IconList() {
 
   return (
     <div className="items-center justify-center">
-      <div className="w-9/12 grid grid-cols-6 gap-1 m-auto">
+      <div className="icon-list w-9/12 grid grid-cols-6 gap-1 m-auto">
         {renderedIcons}
       </div>
     </div>

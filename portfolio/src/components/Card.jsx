@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card({ company, role, date, description, img }) {
+function Card({ company, role, date, description, sub_desc, img }) {
   return (
     <div className="container">
       <div className="banner-img"></div>
@@ -13,7 +13,11 @@ function Card({ company, role, date, description, img }) {
         {company}
       </p>
       <h4>{date}</h4>
-      <p className="description">{description}</p>
+      <p className="description">
+        {description}
+        {"\n"}
+        <b>{sub_desc}</b>
+      </p>
     </div>
   );
 }

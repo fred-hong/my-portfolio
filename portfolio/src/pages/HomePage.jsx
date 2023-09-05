@@ -47,9 +47,9 @@ function HomePage() {
           <div id="content">
             <main className="main-template fillHeight">
               <Home />
-              <Fade bottom distance="50px">
-                <About />
-              </Fade>
+              {/* <Fade bottom distance="50px"> */}
+              <About />
+              {/* </Fade> */}
               <Fade bottom distance="50px">
                 <Experience />
               </Fade>
@@ -60,8 +60,8 @@ function HomePage() {
                 <Contact />
               </Fade>
             </main>
-            <Footer />
           </div>
+          <Footer />
         </>
       )}
     </div>
