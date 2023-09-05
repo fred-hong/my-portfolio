@@ -9,7 +9,7 @@
 }
 
 * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -17,11 +17,6 @@
 html {
   scroll-behavior: smooth;
 }
-
-/* Vertical Line */
-/* .v1 {
-  border-left: 6px #ccd6f6;
-} */
 
 /* Initial fade when page is refreshed */
 
@@ -82,6 +77,21 @@ a:nth-child(1) {
   -webkit-animation-delay: 2.05s;
   animation-delay: 2.05s;
 }
+
+a:nth-child(2) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 5s;
+}
+
+/* a:nth-child(3) {
+  -webkit-animation-delay: 2.4s;
+  animation-delay: 2.45s;
+}
+
+a:nth-child(4) {
+  -webkit-animation-delay: 2.55s;
+  animation-delay: 2.55s;
+}  */
 
 @keyframes fadeIn {
   0% {
@@ -226,7 +236,7 @@ main {
   display: block;
 }
 
-.side-bar {
+/* .side-bar {
   width: 40px;
   position: fixed;
   bottom: 0px;
@@ -253,7 +263,7 @@ main {
   color: inherit;
   position: relative;
   padding: 10px;
-  /* transition: var(--transition); */
+  transition: var(--transition);
 }
 
 .side-bar ul::after {
@@ -263,7 +273,7 @@ main {
   height: 90px;
   margin: 0px auto;
   background-color: #b0bec5;
-}
+} */
 
 h1,
 h2,
@@ -333,15 +343,14 @@ section {
 }
 
 .first-section {
-  display: flex;
+  /* display: block; */
   -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   height: 100vh;
   padding: 0px;
+  padding-top: 175px;
 }
 
 .first-section p {
@@ -460,6 +469,8 @@ a {
   width: 60px;
 }
 
+/* Sidebar */
+
 /* Page Headings */
 
 ::before,
@@ -468,7 +479,7 @@ a {
 }
 
 .page-headings {
-  display: flex;
+  overflow: hidden;
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
@@ -480,25 +491,30 @@ a {
   /* white-space: nowrap; */
 }
 
-.page-headings::after,
-.page-headings::before {
-  content: "";
-  display: block;
-  position: relative;
-  top: 3px;
-  width: 100px;
-  height: 1px;
+.page-headings:before,
+.page-headings:after {
   background-color: #233554;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 10%;
 }
-
-.page-headings::before {
-  margin-right: 20px;
+.page-headings:before {
+  right: 0.8em;
+  margin-left: -50%;
 }
-.page-headings::after {
-  margin-left: 20px;
+.page-headings:after {
+  left: 0.8em;
+  margin-right: -50%;
 }
 
 /*** About Me ***/
+
+.aboutme-section {
+  padding-top: 0;
+}
 
 .aboutme-section .inner {
   display: grid;
@@ -509,6 +525,7 @@ a {
 .aboutme-section .inner .inner-left p {
   font-size: 17px;
   margin: 0px 0px 15px;
+  text-align: center;
 }
 
 /* .list-skills {
@@ -814,17 +831,18 @@ img {
 
 /*** Contact ***/
 
-.contact {
+.contact-section {
   /* max-width: 600px; */
   text-align: center;
+  margin-bottom: 10rem;
 }
 
-.contact p {
+.contact-section p {
   margin-top: 10px;
   font-size: 18px;
 }
 
-.contact .home-buttons {
+.contact-section .home-buttons {
   margin-right: 0;
 }
 
@@ -874,3 +892,97 @@ img {
     transition: none;
   }
 } */
+
+/* mobile responsive */
+@media screen and (max-width: 960px) {
+  #content {
+    padding: 0 2.5rem;
+  }
+
+  .header-style {
+    padding: 1.6rem;
+  }
+  .nav-link-style {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .first-section {
+    /* padding: 10rem 0rem; */
+  }
+
+  /* .first-small-header,
+  .main-header,
+  .sub-header,
+  .header-p {
+    padding: 0 2.5rem;
+  } */
+
+  .first-small-header h1,
+  .main-header h2,
+  .sub-header h3,
+  .header-p p {
+    margin: 20px 0;
+  }
+
+  .first-small-header h1 {
+    font-size: 15px;
+  }
+  .main-header h2 {
+    font-size: 40px;
+  }
+
+  .sub-header h3 {
+    font-size: 19px;
+  }
+
+  .header-p p {
+    font-size: 12px;
+  }
+
+  .home-button-wrapper {
+    /* padding: 0 2.5rem; */
+    margin: 20px 0;
+  }
+
+  .home-buttons {
+    margin: 0;
+    padding: 1.1rem 1.4rem;
+    font-size: 12px;
+  }
+
+  .aboutme-section .inner {
+    grid-template-columns: 1fr;
+  }
+
+  .aboutme-section .inner .inner-left p {
+    font-size: 13px;
+  }
+
+  .icon-list {
+    width: 100%;
+  }
+
+  /* .aboutme-section .inner-right {
+    display: none;
+  } */
+
+  .experience-section .grid-wrapper {
+    margin: 0;
+  }
+
+  .projects .grid-container .grid-item {
+    margin: 0.5rem 0;
+  }
+
+  .contact-section p {
+    margin-bottom: 3rem;
+  }
+
+  .footer-style {
+    font-size: 10px;
+  }
+}
