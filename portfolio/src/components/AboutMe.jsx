@@ -2,7 +2,7 @@ import React from "react";
 import selfportrait from "../assets/img/selfportrait2.jpg";
 import Fade from "react-reveal/Fade";
 import IconList from "./IconList";
-import Zoom from "react-reveal/Zoom";
+// import Zoom from "react-reveal/Zoom";
 // import iconReact from "../assets/img/react-icon.jpg";
 // import iconPython from "../assets/img/python-icon.jpg";
 // import iconJS from "../assets/img/js-icon.jpg";
@@ -26,7 +26,7 @@ function About() {
           <div>
             <Fade up distance="50px">
               <p>
-                Hi there, thanks for stopping by! My name is Fred and I am 4th
+                Hi there, thanks for stopping by! My name is Fred and I am a 4th
                 year student with Honors in Computer Science at York University.
                 With this degree, I am seeking an entry-level developer
                 internship that offers the opportunity for professional growth,

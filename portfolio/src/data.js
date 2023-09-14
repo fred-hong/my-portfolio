@@ -16,8 +16,6 @@ import iconJava from "./assets/img/java-icon.jpg";
 import iconHTML from "./assets/img/html-icon.jpg";
 import iconCSS from "./assets/img/css-icon.jpg";
 
-var desc = "";
-
 export const projects = [
   {
     title: "My Portfolio",

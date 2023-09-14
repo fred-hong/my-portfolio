@@ -511,11 +511,6 @@ a {
 }
 
 /*** About Me ***/
-
-.aboutme-section {
-  padding-top: 0;
-}
-
 .aboutme-section .inner {
   display: grid;
   grid-template-columns: 2fr 1fr;
