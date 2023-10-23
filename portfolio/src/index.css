@@ -350,7 +350,7 @@ section {
   /* min-height: 100vh; */
   height: 100vh;
   padding: 0px;
-  padding-top: 175px;
+  padding-top: 5%;
 }
 
 .first-section p {
