@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.134f6a1d.css",
-    "main.js": "./static/js/main.8f889fce.js",
+    "main.js": "./static/js/main.5e8108de.js",
     "static/media/selfportrait2.jpg": "./static/media/selfportrait2.0c99233736af44669d81.jpg",
     "static/media/summize.png": "./static/media/summize.9fee056321bb38d578b9.png",
     "static/media/react-icon.jpg": "./static/media/react-icon.8a6fc0a24a800d1e0f4a.jpg",
     "static/media/bci-logo.PNG": "./static/media/bci-logo.9220398afce75e048791.PNG",
     "static/media/python-icon.jpg": "./static/media/python-icon.82efb64f8698a267f8bf.jpg",
-    "static/media/Resume.pdf": "./static/media/Resume.a49832565641c606d8e4.pdf",
+    "static/media/Resume.pdf": "./static/media/Resume.405c949540f02c9f2ddf.pdf",
     "static/media/img-portfolio.PNG": "./static/media/img-portfolio.e221b9b967e99de0ace6.PNG",
     "static/media/eventproject.JPG": "./static/media/eventproject.cf37d492e1bbc4eadd9a.JPG",
     "static/media/calculator.JPG": "./static/media/calculator.faa8d953509ec71670f3.JPG",
@@ -15,10 +15,10 @@
     "static/media/js-icon.jpg": "./static/media/js-icon.53a72c2f1b8894adc207.jpg",
     "index.html": "./index.html",
     "main.134f6a1d.css.map": "./static/css/main.134f6a1d.css.map",
-    "main.8f889fce.js.map": "./static/js/main.8f889fce.js.map"
+    "main.5e8108de.js.map": "./static/js/main.5e8108de.js.map"
   },
   "entrypoints": [
     "static/css/main.134f6a1d.css",
-    "static/js/main.8f889fce.js"
+    "static/js/main.5e8108de.js"
   ]
 }
